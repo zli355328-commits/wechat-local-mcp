@@ -1,0 +1,11 @@
+{
+  "name": "wechat-local",
+  "version": "0.1.0",
+  "description": "Read selected conversations from this computer's WeChat databases.",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "本地微信记录",
+    "shortDescription": "按会话读取本机微信记录",
+    "category": "Productivity"
+  }
+}

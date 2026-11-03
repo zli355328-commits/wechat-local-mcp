@@ -1,0 +1,10 @@
+/work/
+/.env*
+*.db
+*.db-*
+*.sqlite*
+*capture*.json
+*key-local*.json
+*validation*.json
+__pycache__/
+.venv/

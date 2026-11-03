@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wechat-local",
+  "version": "0.1.0",
+  "description": "Read selected conversations from this computer's WeChat databases.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "本地微信记录",
+        "shortDescription": "按会话读取本机微信记录",
+        "category": "Productivity"
+      }
+    }
+  }
+}
