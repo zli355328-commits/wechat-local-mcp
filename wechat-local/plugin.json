@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "wechat-local",
-  "version": "0.1.0",
-  "description": "Read selected conversations from this computer's WeChat databases.",
+  "version": "0.3.3",
+  "description": "Read selected local WeChat chats; discover public article candidates and attempt batch body extraction with explicit coverage limits.",
   "extensions": {
     "com.openai": {
       "interface": {
@@ -11,5 +11,6 @@
         "category": "Productivity"
       }
     }
-  }
+  },
+  "skills": "./skills/"
 }

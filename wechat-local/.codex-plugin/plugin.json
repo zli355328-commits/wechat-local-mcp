@@ -1,11 +1,12 @@
 {
   "name": "wechat-local",
-  "version": "0.1.0",
-  "description": "Read selected conversations from this computer's WeChat databases.",
+  "version": "0.3.3",
+  "description": "Read selected local WeChat chats; discover public article candidates and attempt batch body extraction with explicit coverage limits.",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "本地微信记录",
     "shortDescription": "按会话读取本机微信记录",
     "category": "Productivity"
-  }
+  },
+  "skills": "./skills/"
 }

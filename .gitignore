@@ -8,3 +8,11 @@
 *validation*.json
 __pycache__/
 .venv/
+
+/outputs/
+/research/
+/verification-browser/
+*private*.json
+*manifest*.json
+*articles*.html
+*.log
